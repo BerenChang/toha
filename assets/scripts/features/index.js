@@ -33,3 +33,5 @@ if (process.env.FEATURE_EMBEDPDF === '1') {
 if (process.env.FEATURE_COPYCODEBUTTON === '1') {
   import('./copyCode')
 }
+
+import ('./wordcounter')
