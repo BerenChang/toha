@@ -34,4 +34,7 @@ if (process.env.FEATURE_COPYCODEBUTTON === '1') {
   import('./copyCode')
 }
 
-import ('./wordcounter')
+if (process.env.FEATURE_WORDCOUNTER === '1') {
+  import ('./wordcounter')
+}
+
